@@ -15,10 +15,7 @@ except FileNotFoundError:
     print("Error: Make sure all three CSV files are in the same folder as the script.")
     exit()
 
-# --- Step 2: Inspect the DataFrames ---
-# It looks like Sheet1 and July are the main datasets for different months.
-# Let's combine them into one master dataset.
-# We will inspect Sheet2 separately to see what it contains.
+# --- Step 2: Inspect the DataFrames --
 
 print("\n--- Inspecting the data ---")
 print("Columns in Sheet1:", df_sheet1.columns.tolist())
